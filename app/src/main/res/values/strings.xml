@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SingleActivityApp</string>
+    <string name="system_info">System info</string>
+    <string name="fragments_communication">Fragments Communication</string>
+    <string name="internet_connection_status">Internet connection status</string>
+    <string name="charging_status">Charging status</string>
+    <string name="headphones_status">Headphones status</string>
+    <string name="time_status">Time status</string>
+</resources>
