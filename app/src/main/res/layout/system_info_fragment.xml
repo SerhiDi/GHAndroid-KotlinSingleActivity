@@ -14,6 +14,7 @@
             android:layout_height="wrap_content"/>
 
     <TextView
+            android:layout_marginBottom="@dimen/paragraph_margin"
             tools:text="Internet"
             android:id="@+id/internet_connection"
             android:layout_width="match_parent"
@@ -26,6 +27,7 @@
             android:layout_height="wrap_content"/>
 
     <TextView
+            android:layout_marginBottom="@dimen/paragraph_margin"
             tools:text="Charging"
             android:id="@+id/device_charging"
             android:layout_width="match_parent"
@@ -38,6 +40,7 @@
             android:layout_height="wrap_content"/>
 
     <TextView
+            android:layout_marginBottom="@dimen/paragraph_margin"
             tools:text="Headphones"
             android:id="@+id/headphones_plugged"
             android:layout_width="match_parent"
@@ -50,6 +53,7 @@
             android:layout_height="wrap_content"/>
 
     <TextView
+            android:layout_marginBottom="@dimen/paragraph_margin"
             tools:text="Date/Timezone"
             android:id="@+id/current_date"
             android:layout_width="match_parent"

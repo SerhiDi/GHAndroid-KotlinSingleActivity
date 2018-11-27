@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.ViewGroup
 import android.view.LayoutInflater
 import android.view.View
+import com.example.traziusbiz.singleactivityapp.MainActivity
 import com.example.traziusbiz.singleactivityapp.R
 import kotlinx.android.synthetic.main.main_fragment.*
 
@@ -19,6 +20,7 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity).supportActionBar?.title = resources.getString(R.string.app_name)
         initListeners()
     }
 
