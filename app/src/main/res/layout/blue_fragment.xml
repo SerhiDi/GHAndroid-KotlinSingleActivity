@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
+        android:background="@color/blue"
         android:padding="@dimen/block_padding">
 
-    <Button
-            android:id="@+id/system_info"
-            android:text="@string/system_info"
+    <EditText
+            android:hint="@string/enter_text"
+            android:id="@+id/edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+    <Switch
+            android:layout_gravity="center"
+            android:id="@+id/switch_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
     <Button
-            android:id="@+id/communication"
-            android:text="@string/fragments_communication"
+            android:text="@string/pressed_button"
+            android:id="@+id/pressed_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

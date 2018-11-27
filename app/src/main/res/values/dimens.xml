@@ -2,4 +2,5 @@
 <resources>
     <dimen name="text_header_size">24sp</dimen>
     <dimen name="text_size">16sp</dimen>
+    <dimen name="block_padding">16dp</dimen>
 </resources>
