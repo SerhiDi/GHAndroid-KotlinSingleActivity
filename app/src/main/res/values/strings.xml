@@ -6,4 +6,10 @@
     <string name="charging_status">Charging status</string>
     <string name="headphones_status">Headphones status</string>
     <string name="time_status">Time status</string>
+
+    <string name="blue_fragment_text">Text</string>
+    <string name="blue_fragment_switch">Switch</string>
+    <string name="blue_fragment_button_state">Button state</string>
+    <string name="pressed_button">Pressed Button</string>
+    <string name="enter_text">Enter Text</string>
 </resources>

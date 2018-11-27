@@ -16,6 +16,7 @@ import kotlinx.android.synthetic.main.system_info_fragment.*
 import java.text.SimpleDateFormat
 import java.util.*
 import android.os.BatteryManager
+import com.example.traziusbiz.singleactivityapp.MainActivity
 
 class SystemInfoFragment : Fragment() {
 
@@ -26,6 +27,11 @@ class SystemInfoFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.system_info_fragment, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity).supportActionBar?.title = "System Info"
     }
 
     override fun onStart() {
